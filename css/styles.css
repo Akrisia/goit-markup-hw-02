@@ -1,0 +1,76 @@
+:root {
+  --primary-text-color: #757575;
+  --title-nav-text-color: #212121;
+  --accent-color: #2196f3;
+}
+
+body {
+  background-color: #fff;
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* цвет контактов в подвале rgba(255, 255, 255, 0,6) */
+/* фон героя и футера #2F303A */
+/* фон под командой #F5F4FA */
+/*  разделитель #ECECEC */
+
+/* логотип */
+
+.logo {
+  color: var(--accent-color);
+}
+
+.logo .studio {
+  color: #000;
+}
+
+.logo:hover,
+.logo:focus,
+.logo .studio:hover,
+.logo .studio:focus {
+  color: var(--primary-text-color);
+}
+
+/* навигация */
+
+.site-nav .link {
+  color: var(--title-nav-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* контакты в шапке */
+
+.contacts .link {
+  color: var(--primary-text-color);
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
+
+/* герой */
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  color: #fff;
+}
+
+/* секции */
+
+.section-title,
+.features .title,
+.team .title {
+  color: var(--title-nav-text-color);
+}
