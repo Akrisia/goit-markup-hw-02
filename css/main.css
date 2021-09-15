@@ -1,0 +1,28 @@
+/* герой */
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  color: var(--primary-bg-color);
+}
+
+.button {
+  color: var(--primary-bg-color);
+  background-color: var(--accent-color);
+}
+
+/* секции */
+
+.section-title,
+.features .title,
+.team .title {
+  color: var(--title-text-color);
+}
+
+/* команда*/
+
+.section .team {
+  background-color: #f5f4fa;
+}
