@@ -10,7 +10,7 @@
 }
 
 body {
-  font-family: "Roboto", "Arial", sans-serif;
+  font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
   background-color: var(--primary-bg-color);
@@ -51,23 +51,23 @@ body {
 
 /* навигация сайта и контакты в шапке */
 
-.nav-item,
-.hd-contact {
+.site-nav-link,
+.contact-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
-.nav-item {
+.site-nav-link {
   color: var(--title-text-color);
 }
 
-.nav-item.current {
+.site-nav-link.current {
   color: var(--accent-color);
 }
 
-.hd-contact {
+.contact-link {
   color: var(--primary-text-color);
 }
 
@@ -89,7 +89,7 @@ body {
   color: var(--primary-bg-color);
 }
 
-.hero-button {
+.hero-btn {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -102,8 +102,8 @@ body {
   cursor: pointer;
 }
 
-.hero-button:hover,
-.hero-button:focus {
+.hero-btn:hover,
+.hero-btn:focus {
   color: var(--accent-color);
   background-color: var(--primary-bg-color);
 }
@@ -112,13 +112,13 @@ body {
 
 .section-title,
 .feature-title,
-.team-member {
+.member-title {
   color: var(--title-text-color);
 }
 
 .section-title,
-.team-member,
-.team .position {
+.member-title,
+.member-desc {
   text-align: center;
 }
 
@@ -129,10 +129,6 @@ body {
 }
 
 /* секция - особенности */
-
-.features .section-title {
-  display: none;
-}
 
 .feature-title {
   font-weight: 700;
@@ -154,23 +150,19 @@ body {
   background-color: var(--secondary-bg-color);
 }
 
-.team-member,
-.team .position {
+.member-title,
+.member-desc {
   font-size: 16px;
   line-height: 1.19;
 }
 
-.team-member {
+.member-title {
   font-weight: 500;
 }
 
 /* страница - портфолио */
 
-.portfolio .section-title {
-  display: none;
-}
-
-.filter-button {
+.filter-btn {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -183,8 +175,8 @@ body {
   cursor: pointer;
 }
 
-.filter-button:hover,
-.filter-button:focus {
+.filter-btn:hover,
+.filter-btn:focus {
   color: var(--primary-bg-color);
   background-color: var(--accent-color);
 }
@@ -198,7 +190,7 @@ body {
   color: var(--title-text-color);
 }
 
-.project-type {
+.project-desc {
   font-size: 16px;
   line-height: 1.87;
 
@@ -211,16 +203,16 @@ footer {
   background-color: var(--footer-bg-color);
 }
 
-.ft-contact-list {
+.address {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
 }
 
-.ft-address {
+.address-map {
   color: var(--primary-bg-color);
 }
 
-.ft-contact {
+.address-link {
   color: var(--footer-contacts-color);
 }
